@@ -12,6 +12,7 @@
 		18DBCB471EFBAA03003FF70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBCB451EFBAA03003FF70A /* Main.storyboard */; };
 		18DBCB491EFBAA03003FF70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DBCB481EFBAA03003FF70A /* Assets.xcassets */; };
 		18DBCB4C1EFBAA03003FF70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBCB4A1EFBAA03003FF70A /* LaunchScreen.storyboard */; };
+		18DBCB541EFBAB0F003FF70A /* HorizaontalCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBCB531EFBAB0F003FF70A /* HorizaontalCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		18DBCB481EFBAA03003FF70A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DBCB4B1EFBAA03003FF70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DBCB4D1EFBAA03003FF70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DBCB531EFBAB0F003FF70A /* HorizaontalCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizaontalCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				18DBCB481EFBAA03003FF70A /* Assets.xcassets */,
 				18DBCB4A1EFBAA03003FF70A /* LaunchScreen.storyboard */,
 				18DBCB4D1EFBAA03003FF70A /* Info.plist */,
+				18DBCB531EFBAB0F003FF70A /* HorizaontalCollectionCell.swift */,
 			);
 			path = HorizontalCollectionView;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DBCB441EFBAA03003FF70A /* ViewController.swift in Sources */,
+				18DBCB541EFBAB0F003FF70A /* HorizaontalCollectionCell.swift in Sources */,
 				18DBCB421EFBAA03003FF70A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
